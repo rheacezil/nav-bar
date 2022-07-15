@@ -2,3 +2,85 @@
     padding: 0;
     margin: 0;
 }
+
+nav {
+    background-color: orangered;
+    height: 130px;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 5px;
+}
+
+li a:hover {
+    color: bisque;
+}
+
+/* Floats and Clear*/
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+
+
+.top-links {
+    height: 25px;
+    width: 40%;
+    padding-top: 10px;
+    clear: right;
+    /* border: 2px solid black; */
+}
+
+.r-pad-10 {
+    padding-right: 10%;
+}
+
+.l-pad-10 {
+    padding-left: 10%;
+}
+
+.vr {
+    width: 1px;
+    height: 15px;
+    background-color: #fff;
+    margin: 0;
+}
+
+.shopee-logo {
+    background-color: yellow;
+    height: 80px;
+    width: 170px;
+    /* padding-left: 20%; */
+    margin-left: 10%;
+    border: 0;
+}
+
+.search-bar {
+    height: 60px;
+    width: 60%;
+    background-color: pink;
+}
+
+.bottom-links {
+    height: 20px;
+    width: 60%;
+    background-color: aquamarine;
+}
+
+.shopping-cart-button {
+    background-color: burlywood;
+    height: 80px;
+    width: 100px;
+    margin-right: 10%;
+}
+
